@@ -8,10 +8,9 @@ int main() {
     container.addElement(25);
     container.addElement(9);
     container.addElement(3);
-
+    
     // Print container size
     std::cout << "Size of container: " << container.size() << std::endl;
-
     // Use AscendingIterator to display elements in ascending order
     std::cout << "Elements in ascending order:\n";
     AscendingIterator ascIter(container);
